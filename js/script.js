@@ -63,3 +63,14 @@ $(function(){
         $("#work8-overlay8").hide();
       });
     });
+
+    $(function(){
+        $(".design").click(function(){
+          $("#design,design").toggle("slow");
+        })
+      })
+      $(function(){
+        $(".design").click(function(){
+          $("#design,design").toggle("slow");
+        })
+      })
