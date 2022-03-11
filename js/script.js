@@ -27,3 +27,10 @@ $(function(){
       $("#work2-overlay").hide();
     });
   });
+  $(function(){
+    $("#work3").mouseenter(function(){
+      $("#work3-overlay").show();
+    }).mouseleave(function(){
+      $("#work3-overlay").hide();
+    });
+  });
