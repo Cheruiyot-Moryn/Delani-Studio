@@ -41,3 +41,9 @@ $(function(){
       $("#work4-overlay").hide();
     });
   });
+  $(function(){
+    $("#work5").mouseenter(function(){
+      $("#work5-overlay").show();
+    }).mouseleave(function(){
+      $("#work5-overlay").hide();
+    });
