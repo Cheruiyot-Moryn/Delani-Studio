@@ -20,3 +20,10 @@ $(function(){
       $("#overlay").hide();
     });
   });
+  $(function(){
+    $("#work2").mouseenter(function(){
+      $("#work2-overlay").show();
+    }).mouseleave(function(){
+      $("#work2-overlay").hide();
+    });
+  });
