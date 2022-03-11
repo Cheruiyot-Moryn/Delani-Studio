@@ -12,3 +12,11 @@ $(function(){
       }
     });
 });
+
+$(function(){
+    $("#work1").mouseenter(function(){
+      $("#overlay").show();
+    }).mouseleave(function(){
+      $("#overlay").hide();
+    });
+  });
