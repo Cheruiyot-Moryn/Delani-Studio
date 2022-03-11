@@ -85,3 +85,15 @@ $(function(){
           $("#development,development").toggle("slow");
         })
       })
+
+      $(function(){
+        $(".product management").click(function(){
+          $("#product management,product management").toggle("slow");
+        })
+      })
+      $(function(){
+        $(".product management").click(function(){
+          $("#product management,product management").toggle("slow");
+        })
+      })
+    
