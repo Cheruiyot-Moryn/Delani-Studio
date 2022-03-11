@@ -34,3 +34,10 @@ $(function(){
       $("#work3-overlay").hide();
     });
   });
+  $(function(){
+    $("#work4").mouseenter(function(){
+      $("#work4-overlay").show();
+    }).mouseleave(function(){
+      $("#work4-overlay").hide();
+    });
+  });
