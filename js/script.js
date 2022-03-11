@@ -57,3 +57,9 @@ $(function(){
       }).mouseleave(function(){
         $("#work6-overlay").hide();
       });
+      $("#work8").mouseenter(function(){
+        $("#work8-overlay8").show();
+      }).mouseleave(function(){
+        $("#work8-overlay8").hide();
+      });
+    });
