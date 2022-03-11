@@ -52,3 +52,8 @@ $(function(){
       }).mouseleave(function(){
         $("#work6-overlay").hide();
       });
+      $("#work6").mouseenter(function(){
+        $("#work6-overlay").show();
+      }).mouseleave(function(){
+        $("#work6-overlay").hide();
+      });
