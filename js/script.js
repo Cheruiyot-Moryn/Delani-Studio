@@ -74,3 +74,14 @@ $(function(){
           $("#design,design").toggle("slow");
         })
       })
+
+      $(function(){
+        $(".development").click(function(){
+          $("#development,development").toggle("slow");
+        })
+      })
+      $(function(){
+        $(".development").click(function(){
+          $("#development,development").toggle("slow");
+        })
+      })
