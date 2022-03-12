@@ -66,14 +66,14 @@ $(function(){
 
     $(function(){
         $(".design").click(function(){
-          $("#design,design").toggle("slow");
-        })
-      })
+          $("#design, .design").toggle("slow");
+        });
+      });
       $(function(){
-        $(".design").click(function(){
-          $("#design,design").toggle("slow");
-        })
-      })
+        $("#design").click(function(){
+          $(".design, #design").toggle("slow");
+        });
+      });
 
       $(function(){
         $(".development").click(function(){
@@ -87,13 +87,13 @@ $(function(){
       })
 
       $(function(){
-        $(".product management").click(function(){
-          $("#product management,product management").toggle("slow");
+        $(".product").click(function(){
+          $("#product,product").toggle("slow");
         })
       })
       $(function(){
-        $(".product management").click(function(){
-          $("#product management,product management").toggle("slow");
+        $(".product").click(function(){
+          $("#product,product").toggle("slow");
         })
       })
     
